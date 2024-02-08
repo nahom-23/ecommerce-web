@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(235, 18%, 26%);
+  position: relative;
+}
+/* .detial{
+    width: 450px;
+    height: 450px;
+    display: flex;
+} */
+
+.main {
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  border-radius: 15px;
+  position: relative;
+}
+/* text-deatail */
+.text-detail {
+  width: 350px;
+  margin-left: 10px;
+}
+h1 {
+  color: hsl(234, 29%, 20%);
+  font-size: 45px;
+}
+p{
+    font-size: 16px;
+}
+li {
+  list-style: none;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+li img {
+  margin-right: 10px;
+}
+/* form-and-submitt */
+form {
+  margin-top: 30px;
+}
+.email {
+  width: 90%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  display: block;
+  padding: 13px 0;
+  border-radius: 5px;
+  border: 1px solid hsl(235, 18%, 26%);
+}
+.email::placeholder{
+    padding-left: 19px;
+    color: blue;
+}
+.btn button {
+  width: 90%;
+  padding: 13px 0;
+  border-radius: 5px;
+  border: 1px solid hsl(235, 18%, 26%);
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.btn button:hover{
+    background-color:hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+.image img {
+  width: 320px;
+}
+.sucess-login{
+  position: absolute;
+  display: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
